@@ -8,13 +8,14 @@
 
 
 body {
-    background: var(--second);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
+    background: var(--second);
     color: #fff;
 }
+
 
 .header {
     display: flex;
@@ -80,23 +81,64 @@ a {
     gap: 15px;
     margin-bottom: 20px;
 }
+ 
 
 .character-card {
-    min-width: 200px;
-    max-width: 200px;
-    background: rgba(0, 0, 0, 0.5);
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    min-width: 200px;
-    max-width: 200px;
-    text-align: center;
-    text-wrap: nowrap;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+}
+  
+.character-card::before,
+.character-card::after {
+    content: "";
+    background-color: #fab5704c;
+    position: absolute;
+}
+  
+.character-card::before {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    top: 30%;
+    right: 7%;
+}
+  
+.chararacter::after {
+    content: "";
+    position: absolute;
+    height: 3rem;
+    top: 8%;
+    right: 5%;
+    border: 1px solid;
 }
 
+.character-card .box {
+    min-width: 250px;
+    min-height: 250px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+    transition: all ease 0.3s;
+  }
+  
+  .character-card .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.character-card .box:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+}
+  
 .character-image {
-    width: 100%;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     border-radius: 5px 5px 0 0;
 }
 
