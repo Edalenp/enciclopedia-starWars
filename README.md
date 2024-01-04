@@ -1,6 +1,6 @@
 # LA ENCICLOPEDIA DE STAR WARS 
 
->> Crea una app que sirva para listar los personajes de Star Wars y que te permita buscarlos por nombre.
+> Crea una app que sirva para listar los personajes de Star Wars y que te permita buscarlos por nombre.
 
 Requisitos:
 
