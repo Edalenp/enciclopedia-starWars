@@ -18,6 +18,8 @@ Requisitos:
 
 1. Cuando vas a buscar un personaje, te dará un bug y hará que tu busqueda sea lenta. Esto es porque cuando le hago petición a la API, esta se tarda en obtener los datos en cinco segundos apróximadamente. Intenté de muchas formas evitar lo anterior, pero no pude encontrar una solución, con lo que cual me dispuse a probar otra API diferente y hacer la obtención de datos. Con la otra API me fue excelente, me daba una respuesta enseguida, por lo cuál asumí que la SWAPI está lenta. Para evitar esto, debes esperar algunos segundos a que carguen los resultados, así mismo cuando vas a pasar de página. 
 
-2. El código lo hice en inglés debido a que la respuesta de la API me la da en inglés, por eso decidí hacerlo todo en inglés. 
+2. El código lo hice en inglés debido a que la respuesta de la API me la da en inglés, por eso decidí hacerlo todo en inglés.
+
+3. Es probable que algunas imágenes carguen tarde, si tienen alguna recomendación para que eso no pase, me la dice. 
 
 PD >> No es el mejor diseño, pero estoy aprendiendo sobre patrones de diseño. 
