@@ -37,7 +37,7 @@ function createCard(character) {
     const cardHTML = 
     `
     <div class="character-card">
-        <img src="${imagePath}" alt="${character.name}" class="character-image">
+        <img src="${imagePath}" alt="${character.name}" class="character-image" loading="lazy">
         <h3>${character.name}</h3>
         <p><strong> Birth Year >> </strong>${character.birth_year}</p>
         <p><strong>Height >> </strong>${character.height} cm</p>
