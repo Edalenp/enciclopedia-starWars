@@ -37,20 +37,21 @@ function createCard(character) {
     const cardHTML = 
     `
     <div class="character-card">
-        <img src="${imagePath}" alt="${character.name}" class="character-image" loading="lazy">
-        <h3>${character.name}</h3>
-        <p><strong> Birth Year >> </strong>${character.birth_year}</p>
-        <p><strong>Height >> </strong>${character.height} cm</p>
-        <p><strong>Mass >> </strong>${character.mass} kg</p>
-        <p><strong>Gender >> </strong>${character.gender}</p>
-        <p><strong>Hair color >> </strong>${character.hair_color}</p>
-        <p><strong>Eye color >> </strong>${character.eye_color}</p>
-        <p><strong>Skin color >> </strong>${character.skin_color}</p>
+        <div class="box">
+            <img src="${imagePath}" alt="${character.name}" class="character-image" loading="lazy">
+            <h3>${character.name}</h3>
+            <p><strong> Birth Year >> </strong>${character.birth_year}</p>
+            <p><strong>Height >> </strong>${character.height} cm</p>
+            <p><strong>Mass >> </strong>${character.mass} kg</p>
+            <p><strong>Gender >> </strong>${character.gender}</p>
+            <p><strong>Hair color >> </strong>${character.hair_color}</p>
+            <p><strong>Eye color >> </strong>${character.eye_color}</p>
+            <p><strong>Skin color >> </strong>${character.skin_color}</p>
+        </div>
     </div>
     `;
     return cardHTML;
 }
-
 // Function to display results
 
 function showResults(results) {
