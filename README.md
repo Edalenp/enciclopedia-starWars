@@ -21,5 +21,3 @@ Requisitos:
 2. El código lo hice en inglés debido a que la respuesta de la API me la da en inglés, por eso decidí hacerlo todo en inglés.
 
 3. Es probable que algunas imágenes carguen tarde, si tienen alguna recomendación para que eso no pase me la dicen. 
-
-PD >> No es el mejor diseño, pero estoy aprendiendo sobre patrones de diseño. 
